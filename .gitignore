@@ -1,0 +1,13 @@
+# Local environment and development checks
+.venv/
+.verification/
+__pycache__/
+.ipynb_checkpoints/
+
+# Files reconstructed when the notebook runs
+tripwire_runtime/
+*.pt
+
+# Private runtime configuration
+.env
+.env.*
